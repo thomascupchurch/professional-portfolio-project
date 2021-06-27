@@ -1,0 +1,70 @@
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul li {
+    color: red;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ;
+    align-items: ; */
+}
+
+hero {
+
+}
+
+#profile-pic {
+    width: 300px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.flex-row {
+    display: flex;
+}
+
+.section-title {
+
+}
+
+#AboutMe {
+    display: flex;
+}
+
+
+#MyWork {
+    display: flex;
+}
+
+
+#ContactMe {
+    display: flex;
+}
+
+/* flex-direction: row-reverse;
+display: flex;
+flex-direction: column;
+flex-direction: column-reverse;
+justify-content: flex-start; (default)
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+align-items: flex-start, flex-end, center, stretch
+.target.males:nth-of-type() {
+align-self: [same as align-items]
+or
+flex-grow; 1; [it's a ratio]
+*/
+
+
