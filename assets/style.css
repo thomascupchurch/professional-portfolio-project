@@ -1,10 +1,24 @@
 
+header{
+    color: aliceblue;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    background-color:cadetblue;
+    border: 10px;
+    border-color: chocolate;
+    padding: 10px;
+    margin: auto;
+    
+
+}
+
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 ul li {
-    color: red;
+    color: goldenrod;
 }
 
 nav {
@@ -14,7 +28,7 @@ nav {
     align-items: ; */
 }
 
-hero {
+.hero {
 
 }
 
@@ -25,8 +39,9 @@ hero {
 div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -38,18 +53,31 @@ div {
 
 }
 
-#AboutMe {
-    display: flex;
+.AboutMe {
+    display: block;
+    background-image: url("https://www.freeimages.com/photo/search-engine-optimization-1637221");
+    background-size: 5000px;
 }
 
 
-#MyWork {
-    display: flex;
+.MyWork {
+    
+    color: white;
+    background-image: url("https://images.freeimages.com/images/large-previews/d94/old-exercise-book-1558140.jpg");
+    background-position:center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    text-align: start;
+    
 }
 
 
-#ContactMe {
+.ContactMe {
     display: flex;
+    background-image: url("https://images.freeimages.com/images/large-previews/e6c/antena-de-comunicaciones-1638488.jpg");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* flex-direction: row-reverse;
