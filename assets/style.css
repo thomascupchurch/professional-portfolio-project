@@ -1,3 +1,6 @@
+* {
+    text-decoration: none;
+}
 
 header{
     color: aliceblue;
@@ -9,31 +12,45 @@ header{
     border-color: chocolate;
     padding: 10px;
     margin: auto;
-    
+    font-size: 50px;
 
 }
 
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
 }
 
-ul li {
-    color: goldenrod;
-}
 
-nav {
+header nav ul {
+    color:ivory;
     display: flex;
     flex-direction: row;
-    /* justify-content: ;
-    align-items: ; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
 }
 
-.hero {
-
+body {
+    width: 100%;
+    background-color:lightslategrey;
+    text-decoration: none;
 }
+
+
 
 #profile-pic {
     width: 300px;
+    border-radius: 5px;
+}
+
+#run-buddy, 
+#horiseon-refactor,
+#robot-gladiators {
+    width: 500px;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 div {
@@ -43,56 +60,79 @@ div {
     align-items: center;
     text-align: center;
 
-}
+} 
 
 .flex-row {
     display: flex;
 }
 
 .section-title {
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-style: italic;
 }
 
-.AboutMe {
-    display: block;
-    background-image: url("https://www.freeimages.com/photo/search-engine-optimization-1637221");
-    background-size: 5000px;
-}
-
-
-.MyWork {
-    
-    color: white;
-    background-image: url("https://images.freeimages.com/images/large-previews/d94/old-exercise-book-1558140.jpg");
-    background-position:center;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    text-align: start;
-    
-}
-
-
-.ContactMe {
+div #Run-Buddy,
+div #Horiseon-Refactor,
+div #Robot-Gladiators {
     display: flex;
-    background-image: url("https://images.freeimages.com/images/large-previews/e6c/antena-de-comunicaciones-1638488.jpg");
-    background-size: 1000px;
-    background-repeat: no-repeat;
-    background-position: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    text-decoration: none;
 }
 
-/* flex-direction: row-reverse;
-display: flex;
-flex-direction: column;
-flex-direction: column-reverse;
-justify-content: flex-start; (default)
-justify-content: flex-end;
-justify-content: center;
-justify-content: space-between;
-align-items: flex-start, flex-end, center, stretch
-.target.males:nth-of-type() {
-align-self: [same as align-items]
-or
-flex-grow; 1; [it's a ratio]
-*/
+#AboutMe {
+    font-size: 25px;
+}
+
+#ContactMe {
+   font-size: 30px;
+   color:lightgreen; 
+}
+
+#ContactMe a {
+    color:lightgreen;
+}
 
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    
+  }
+
+  
